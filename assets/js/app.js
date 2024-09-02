@@ -7,5 +7,11 @@ const images = [
 
 const allGridBtn = document.querySelectorAll(".battleship-grid");
 allGridBtn.forEach((ele) => {
-  ele.addEventListener("click", function () {});
+  ele.addEventListener("click", function () {
+    function displayImage() {
+      var num = Math.floor(Math.random());
+    }
+
+    allGridBtn[ele] = document.createElement("img");
+  });
 });
